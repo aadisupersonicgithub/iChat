@@ -1,0 +1,70 @@
+.logo {
+  /* display: block;
+  margin: auto; */
+  background-color: rgb(55, 57, 59);
+  width: 50px;
+  height: 50px;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(rgb(99, 179, 99), rgb(107, 82, 218));
+}
+.container {
+  max-width: 950px;
+  /* background-color: orange; */
+  border: 2px solid black;
+  margin: auto;
+  height: 60vh;
+  padding: px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+}
+
+.message {
+  background-color: gray;
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px 12px;
+  font-family: cursive;
+  /* font-weight: bold; */
+  border: 2px solid black;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+  /* can use flexbox as well */
+}
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+}
+#messageInp {
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 3px;
+  height: 37px;
+}
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+}
+h1 {
+  color: #111;
+  font-family: cursive;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  margin: 30px;
+}

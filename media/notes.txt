@@ -1,0 +1,6 @@
+http, https === ws wss (web socket, secure web socket)  for BIDIRECTIONAL communication 
+socket io :: js library to implement socket io 
+
+npm init -> server making 
+npm install socket.io -> install socket io 
+
